@@ -9,6 +9,8 @@ hobbies.pop();
 
 hobbies.splice(2,0, "running", "coding");
 
+hobbies.shift();
 
+hobbies.unshift("reading manga");
 
 console.log(hobbies);
