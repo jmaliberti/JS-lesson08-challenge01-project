@@ -15,7 +15,6 @@ hobbies.unshift("reading manga");
 
 console.log(hobbies);
 
-
 var goals = ["learn JavaScript", "learn Python", "increase income significantly"];
 var allTheThings = hobbies.concat(goals);
 
@@ -24,3 +23,5 @@ console.log(allTheThings.indexOf("coding"));
 allTheThings.splice(3, 1);
 
 console.log(allTheThings);
+
+var plans = allTheThings.map(function () {});
