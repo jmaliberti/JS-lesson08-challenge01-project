@@ -14,3 +14,6 @@ hobbies.shift();
 hobbies.unshift("reading manga");
 
 console.log(hobbies);
+
+
+var goals = ["learn JavaScript", "learn Python", "increase income significantly"];
