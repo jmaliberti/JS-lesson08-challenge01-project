@@ -17,3 +17,6 @@ console.log(hobbies);
 
 
 var goals = ["learn JavaScript", "learn Python", "increase income significantly"];
+var allTheThings = hobbies.concat(goals);
+
+console.log(allTheThings);
