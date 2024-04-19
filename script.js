@@ -6,4 +6,9 @@ hobbies.push("lifting weights");
 console.log(hobbies[2]);
 
 hobbies.pop();
+
+hobbies.splice(2,0, "running", "coding");
+
+
+
 console.log(hobbies);
