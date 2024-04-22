@@ -15,7 +15,7 @@ hobbies.unshift("reading manga");
 
 console.log(hobbies);
 
-var goals = ["learn JavaScript", "learn Python", "increase income significantly"];
+var goals = ["learning JavaScript", "learning Python", "increasing income significantly"];
 var allTheThings = hobbies.concat(goals);
 
 console.log(allTheThings.indexOf("coding"));
