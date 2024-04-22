@@ -24,4 +24,8 @@ allTheThings.splice(3, 1);
 
 console.log(allTheThings);
 
-var plans = allTheThings.map(function () {});
+var plans = allTheThings.map(function (item) {
+    return `I can't wat to start ${item}.`
+});
+
+console.log(plans);
